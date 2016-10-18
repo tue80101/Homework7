@@ -13,15 +13,15 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="page-header text-center">
+        <div class="page-header text-center bg-primary">
             <h1>URP Registration System</h1>
         </div>
     <div class="container">
-        <div class="form-group">
+        <div class="form-group bg-info">
             <label for="user">Username:</label>
             <input type="text" class="form-control" id="usr" />
         </div>
-        <div class="form-group">
+        <div class="form-group bg-info">
             <label for="pwd">Password:</label>
             <input type="password" class="form-control" id="pwd" />
         </div>
