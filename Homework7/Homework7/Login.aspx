@@ -26,6 +26,9 @@
             <input type="password" class="form-control" id="pwd" />
         </div>
     </div>
+        <div>
+            <button type="button" class="btn btn-success center-block">Login</button>
+        </div>
     </form>
 </body>
 </html>

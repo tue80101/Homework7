@@ -23,7 +23,7 @@
                     <a class="navbar-brand" href="#">URP Registration System</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="bg-info"><a href="#">View Applications</a></li>
+                    <li class="bg-info"><a href="F_Applications.aspx">View Applications</a></li>
                 </ul>
             </div>
         </nav>

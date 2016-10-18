@@ -23,8 +23,8 @@
                     <a class="navbar-brand" href="#">URP Registration System</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class="bg-info"><a href="#">Submit Form</a></li>
-                    <li class="bg-info"><a href="#">View Submission</a></li>
+                    <li class="bg-info"><a href="Submit.aspx">Submit Form</a></li>
+                    <li class="bg-info"><a href="View.aspx">View Submission</a></li>
                 </ul>
             </div>
         </nav>
