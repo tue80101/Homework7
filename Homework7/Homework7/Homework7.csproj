@@ -100,6 +100,9 @@
     </Content>
     <Content Include="Student.Master" />
     <Content Include="Faculty.Master" />
+    <Content Include="Admin.Master" />
+    <Content Include="A_Applications.aspx" />
+    <Content Include="Manage.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,9 +117,16 @@
     <Content Include="Web.config" />
     <Content Include="Submit.aspx" />
     <Content Include="View.aspx" />
-    <Content Include="Applications.aspx" />
+    <Content Include="F_Applications.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
     <Compile Include="Faculty.Master.cs">
       <DependentUpon>Faculty.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -153,12 +163,26 @@
     <Compile Include="View.aspx.designer.cs">
       <DependentUpon>View.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Applications.aspx.cs">
-      <DependentUpon>Applications.aspx</DependentUpon>
+    <Compile Include="F_Applications.aspx.cs">
+      <DependentUpon>F_Applications.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Applications.aspx.designer.cs">
-      <DependentUpon>Applications.aspx</DependentUpon>
+    <Compile Include="F_Applications.aspx.designer.cs">
+      <DependentUpon>F_Applications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="A_Applications.aspx.cs">
+      <DependentUpon>A_Applications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="A_Applications.aspx.designer.cs">
+      <DependentUpon>A_Applications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage.aspx.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage.aspx.designer.cs">
+      <DependentUpon>Manage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
